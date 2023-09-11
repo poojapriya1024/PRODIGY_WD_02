@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Montserrat:wght@200;300&family=Ubuntu:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    margin-top:60px;
+    background:#C6CBD1;
+
+    max-width: 650px;
+    min-width: 430px;
+    padding: 50px;
+    border-radius:9px;
+
+}
+
+.display {
+    margin: 20px;
+    margin-top:10px;
+    padding: 40px;
+    background:#B8AAC3;
+    border-radius: 7px;
+    font-weight:700;
+    text-align: center;
+    
+    max-width: 600px;
+    min-width: 380px;
+    /* max-height: 600px;
+    min-height: 500px; */
+}
+
+.txt {
+    font-size:5px;
+}
+
+.digit {
+    font-size:30px
+}
+
+.buttons {
+    margin:15px;
+    padding-bottom:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    max-width: 600px; 
+    min-width: 380px; 
+    height: 50px;
+}
+
+.buttons button {
+    margin:0px 35px;
+    border-style: none;
+    padding:7px;
+    background:#41384e;
+    border-radius:7px;
+    font-size:15px;
+    font-weight:300;
+    color:white;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+}
