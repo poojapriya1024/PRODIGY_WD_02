@@ -38,6 +38,19 @@
     min-height: 500px; */
 }
 
+.laps {
+    background-color: #B8AAC3;
+    margin: 20px;
+    max-width: 600px;
+    min-width: 380px;
+    border-radius: 7px;
+    font-weight:700;
+}
+
+.laps li {
+    margin-left: 20px;
+}
+
 .txt {
     font-size:5px;
 }
